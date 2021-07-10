@@ -1,38 +1,81 @@
+
+
 .App {
+
   text-align: center;
+  line-height: 1.4em;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div{
+  
+margin-bottom: 20px;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  box-shadow: 0px 0 1.0px 1.0px rgba(8, 1, 1, 0.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div{
   display: flex;
+   order: 3;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+justify-content: center;
+}
+
+.foodImage img{
+  height: 30vh;
+  width: 25vw;
+  border-top-right-radius: 10%;
+border-bottom-left-radius: 10%;
+}
+.title{
+  margin-left:10px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.container{
+display: flex;
+justify-content: space-evenly;
+}
+
+.ratingImage img {
+  height: 9vh;
+  width: 10vw;
+padding-left: 10px;
+}
+.detialing{
+  display:flex;
+  justify-content:space-between ;
+}
+.addition{
   color: white;
+  background: orange;
+  width: 5vw;
+  align-content: center;
+  font-size: 2.9em;
+  border-top-left-radius: 15%;
+  cursor: pointer;
+  display: block;
+  border: none;
+  height: 11vh;
+}
+.item p{
+  align-content: center;
+  width: 300px;
+margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.price{
+margin-right: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fullText{
+  display: none;
+}
+#shortText
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
