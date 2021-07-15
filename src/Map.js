@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MetaTags from 'react-meta-tags';
 import Menu from './Menu'
 
 import './App.css'
@@ -57,7 +58,10 @@ class Map extends Component {
         
         return (
             <div className='container'>
-           
+           <MetaTags>
+
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
+          </MetaTags>
         <div className='content'>{colA}</div>
         <div className='content'>{colB}</div>
         <div className='content'>{colC}</div>
