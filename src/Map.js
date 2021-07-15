@@ -16,7 +16,7 @@ class Map extends Component {
         this.Meal()
     }
         Meal=()=>{
-            
+   //     const cors = 'https://cors-anywhere.herokuapp.com'   
         const url ='https://asm-dev-api.herokuapp.com/api/v1/food';
         fetch(url)
         .then(response=>{
